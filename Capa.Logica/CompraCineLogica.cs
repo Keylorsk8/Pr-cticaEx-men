@@ -12,9 +12,9 @@ namespace Capa.Logica
     {
         public void Insertar(CompraCine CompraCine)
         {
-            if (string.IsNullOrEmpty(CompraCine.IdTicket.ToString()))
+            if (string.IsNullOrEmpty(CompraCine.IdCompra.ToString()))
             {
-                throw new ApplicationException("ElTicket es requerido");
+                throw new ApplicationException("El Ticket es requerido");
             }
 
             CompraCineDatos datos = new CompraCineDatos();
