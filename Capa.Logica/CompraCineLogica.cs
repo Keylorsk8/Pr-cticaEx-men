@@ -1,4 +1,5 @@
-﻿using Capa.Entidades;
+﻿using Capa.Datos;
+using Capa.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
