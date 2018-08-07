@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Compra Tickets Cine</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,7 +28,16 @@
                 </li>
             </ul>
         </div>
+
+        
     </nav>
+    <div>
+      <img src="imagenes/7251733.jpg" width="100%" height="100%" />
+     </div>
+        <footer class="" >
+        <h1>Keylor Martinez--Pablo Mora</h1>
+         
+        </footer>
 
 </body>
 <script src="Scripts/bootstrap.min.js"></script>
