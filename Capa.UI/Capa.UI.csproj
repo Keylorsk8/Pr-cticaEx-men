@@ -68,9 +68,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CompraCine.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="js\CalcularTotal.js" />
+    <Content Include="imagenes\7251733.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
@@ -135,13 +134,6 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompraCine.aspx.cs">
-      <DependentUpon>CompraCine.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CompraCine.aspx.designer.cs">
-      <DependentUpon>CompraCine.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -152,10 +144,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Capa.Datos\Capa.Datos.csproj">
-      <Project>{CED4C8F2-597C-4216-9E05-F484091D168B}</Project>
-      <Name>Capa.Datos</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Capa.Entidades\Capa.Entidades.csproj">
       <Project>{c0d50584-cab1-4325-a302-0849be953048}</Project>
       <Name>Capa.Entidades</Name>
